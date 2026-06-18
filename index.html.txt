@@ -1,0 +1,327 @@
+!DOCTYPE html
+html lang=pt-BR
+head
+meta charset=UTF-8
+meta name=viewport content=width=device-width, initial-scale=1.0
+titleTechSolutionstitle
+
+style
+{
+    margin0;
+    padding0;
+    box-sizingborder-box;
+    font-familyArial, sans-serif;
+}
+
+body{
+    background#f4f6f9;
+}
+
+header{
+    background#0d47a1;
+    colorwhite;
+    padding20px;
+    positionsticky;
+    top0;
+}
+
+header h1{
+    text-aligncenter;
+}
+
+nav{
+    text-aligncenter;
+    margin-top10px;
+}
+
+nav a{
+    colorwhite;
+    text-decorationnone;
+    margin0 15px;
+    font-weightbold;
+}
+
+nav ahover{
+    color#90caf9;
+}
+
+.hero{
+    backgroundlinear-gradient(to right,#1565c0,#42a5f5);
+    colorwhite;
+    text-aligncenter;
+    padding100px 20px;
+}
+
+.hero h2{
+    font-size45px;
+    margin-bottom20px;
+}
+
+.hero p{
+    font-size20px;
+}
+
+.btn{
+    displayinline-block;
+    margin-top20px;
+    padding12px 25px;
+    backgroundwhite;
+    color#1565c0;
+    text-decorationnone;
+    border-radius5px;
+    font-weightbold;
+}
+
+section{
+    padding60px 10%;
+}
+
+.titulo{
+    text-aligncenter;
+    margin-bottom40px;
+    color#0d47a1;
+}
+
+.cards{
+    displayflex;
+    gap20px;
+    flex-wrapwrap;
+    justify-contentcenter;
+}
+
+.card{
+    backgroundwhite;
+    width300px;
+    padding25px;
+    border-radius10px;
+    box-shadow0 3px 10px rgba(0,0,0,0.15);
+    transition.3s;
+}
+
+.cardhover{
+    transformtranslateY(-5px);
+}
+
+.card h3{
+    color#1565c0;
+    margin-bottom10px;
+}
+
+.equipe{
+    displayflex;
+    justify-contentcenter;
+    gap25px;
+    flex-wrapwrap;
+}
+
+.membro{
+    backgroundwhite;
+    width250px;
+    text-aligncenter;
+    padding20px;
+    border-radius10px;
+    box-shadow0 3px 10px rgba(0,0,0,0.15);
+}
+
+.membro img{
+    width120px;
+    height120px;
+    border-radius50%;
+}
+
+table{
+    width100%;
+    border-collapsecollapse;
+    backgroundwhite;
+}
+
+table th{
+    background#1565c0;
+    colorwhite;
+}
+
+table th, table td{
+    padding15px;
+    border1px solid #ddd;
+    text-aligncenter;
+}
+
+form{
+    backgroundwhite;
+    padding30px;
+    border-radius10px;
+    box-shadow0 3px 10px rgba(0,0,0,0.15);
+}
+
+input, textarea{
+    width100%;
+    padding12px;
+    margin10px 0;
+    border1px solid #ccc;
+}
+
+button{
+    background#1565c0;
+    colorwhite;
+    bordernone;
+    padding12px 20px;
+    cursorpointer;
+}
+
+footer{
+    background#0d47a1;
+    colorwhite;
+    text-aligncenter;
+    padding25px;
+}
+style
+head
+
+body
+
+header
+h1TechSolutionsh1
+
+nav
+a href=#inicioInícioa
+a href=#sobreSobrea
+a href=#servicosServiçosa
+a href=#equipeEquipea
+a href=#precosPreçosa
+a href=#contatoContatoa
+nav
+header
+
+section class=hero id=inicio
+h2Soluções Tecnológicas para Empresash2
+pInfraestrutura, Redes, Segurança e Desenvolvimento Web.p
+a href=#contato class=btnSolicitar Orçamentoa
+section
+
+section id=sobre
+h2 class=tituloSobre Nósh2
+
+p
+A TechSolutions é uma empresa especializada em infraestrutura
+de TI, desenvolvimento de sistemas e segurança de redes.
+Nosso objetivo é fornecer soluções modernas e eficientes para
+empresas de todos os portes.
+p
+section
+
+section id=servicos
+h2 class=tituloNossos Serviçosh2
+
+div class=cards
+
+div class=card
+h3Redesh3
+pImplementação de redes corporativas, VLANs, roteamento e monitoramento.p
+div
+
+div class=card
+h3Segurançah3
+pFirewall, VPN, controle de acesso e proteção contra ameaças.p
+div
+
+div class=card
+h3Cloudh3
+pMigração de serviços para nuvem e gerenciamento de infraestrutura.p
+div
+
+div class=card
+h3Desenvolvimentoh3
+pCriação de sistemas web, sites corporativos e aplicações empresariais.p
+div
+
+div class=card
+h3Suporteh3
+pAtendimento remoto e presencial para resolução de problemas.p
+div
+
+div class=card
+h3Consultoriah3
+pPlanejamento estratégico para crescimento tecnológico.p
+div
+
+div
+section
+
+section id=equipe
+h2 class=tituloNossa Equipeh2
+
+div class=equipe
+
+div class=membro
+h3Carlos Silvah3
+pAdministrador de Redesp
+div
+
+div class=membro
+h3Mariana Costah3
+pEspecialista em Segurançap
+div
+
+div class=membro
+h3Lucas Oliveirah3
+pDesenvolvedor Full Stackp
+div
+
+div
+section
+
+section id=precos
+h2 class=tituloPlanosh2
+
+table
+tr
+thPlanoth
+thServiçosth
+thPreçoth
+tr
+
+tr
+tdBásicotd
+tdSuporte e Monitoramentotd
+tdR$ 199mêstd
+tr
+
+tr
+tdProfissionaltd
+tdFirewall + VPN + Suportetd
+tdR$ 499mêstd
+tr
+
+tr
+tdEmpresarialtd
+tdSolução Completatd
+tdR$ 999mêstd
+tr
+
+table
+section
+
+section id=contato
+h2 class=tituloContatoh2
+
+form
+input type=text placeholder=Nome
+
+input type=email placeholder=E-mail
+
+input type=text placeholder=Empresa
+
+textarea rows=5 placeholder=Digite sua mensagemtextarea
+
+button type=submitEnviarbutton
+form
+section
+
+footer
+p© 2026 TechSolutions - Todos os Direitos Reservadosp
+pEmail contato@techsolutions.comp
+pTelefone (11) 99999-9999p
+footer
+
+body
+html
